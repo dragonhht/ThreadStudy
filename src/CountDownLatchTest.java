@@ -1,7 +1,7 @@
 import java.util.concurrent.CountDownLatch;
 
 /**
- * Description.
+ * 闭锁.
  * User: huang
  * Date: 2017/12/23
  */
