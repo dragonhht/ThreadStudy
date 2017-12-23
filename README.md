@@ -16,3 +16,11 @@
 > 使用Callable创建线程，只需类实现`Callable`接口
 > 使用时需`FutureTask`类接收结果，
 > 获取结果时，需等待线程运行完成，因此FutureTask可用于闭锁
+
+# [Lock同步锁](./src/LockTest.java)
+
+> 和synchronized同步代码块类似，不过需主动显示释放
+
+# [读写锁（ReadWriteLock）](./src/ReadWriteLockTest.java)
+
+> 读写、写写需要互斥，读读不需互斥
