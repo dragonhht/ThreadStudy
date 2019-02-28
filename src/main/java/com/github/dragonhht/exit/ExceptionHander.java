@@ -1,4 +1,4 @@
-package java7.exit;
+package com.github.dragonhht.exit;
 
 /**
  * Description.

@@ -1,3 +1,5 @@
+package com.github.dragonhht;
+
 import java.util.concurrent.CountDownLatch;
 
 /**

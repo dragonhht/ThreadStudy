@@ -1,4 +1,4 @@
-package async;
+package com.github.dragonhht.async;
 
 import java.lang.reflect.Method;
 
@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        async("async.AsyncTest");
+        async("com.github.dragonhht.async.AsyncTest");
     }
 
 }

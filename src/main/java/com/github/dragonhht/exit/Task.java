@@ -1,4 +1,4 @@
-package java7.exit;
+package com.github.dragonhht.exit;
 
 import java.util.List;
 import java.util.concurrent.RecursiveAction;

@@ -1,6 +1,4 @@
-package java7.exit;
-
-import java.util.concurrent.TimeUnit;
+package com.github.dragonhht.exit;
 
 /**
  * Description.

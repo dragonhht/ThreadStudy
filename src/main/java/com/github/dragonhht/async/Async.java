@@ -1,4 +1,4 @@
-package async;
+package com.github.dragonhht.async;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

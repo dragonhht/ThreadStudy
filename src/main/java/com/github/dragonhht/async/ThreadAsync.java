@@ -1,4 +1,4 @@
-package async;
+package com.github.dragonhht.async;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
