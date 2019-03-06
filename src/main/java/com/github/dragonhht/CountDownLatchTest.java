@@ -43,6 +43,12 @@ class Test  implements Runnable {
             }
             // 闭锁中减一
             latch.countDown();
+            try {
+                latch.await();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("---");
         }
 
     }
