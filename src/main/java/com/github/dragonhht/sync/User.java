@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync;
+package com.github.dragonhht.sync;
 
 /**
  * .

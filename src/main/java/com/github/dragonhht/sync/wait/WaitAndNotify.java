@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync.wait;
+package com.github.dragonhht.sync.wait;
 
 import lombok.Data;
 

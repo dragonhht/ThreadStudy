@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync.high;
+package com.github.dragonhht.sync.high;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Lock;

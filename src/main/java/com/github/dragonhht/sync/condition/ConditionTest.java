@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync.condition;
+package com.github.dragonhht.sync.condition;
 
 import java.util.LinkedList;
 import java.util.concurrent.locks.Condition;

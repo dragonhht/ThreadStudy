@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync.high;
+package com.github.dragonhht.sync.high;
 
 import java.util.LinkedList;
 import java.util.concurrent.Semaphore;

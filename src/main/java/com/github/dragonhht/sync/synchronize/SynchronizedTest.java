@@ -1,6 +1,6 @@
-package com.github.dragonhht.Sync.synchronize;
+package com.github.dragonhht.sync.synchronize;
 
-import com.github.dragonhht.Sync.User;
+import com.github.dragonhht.sync.User;
 
 /**
  * Synchronized.

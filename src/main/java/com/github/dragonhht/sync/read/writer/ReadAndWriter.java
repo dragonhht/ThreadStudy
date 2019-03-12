@@ -1,4 +1,4 @@
-package com.github.dragonhht.Sync.read.writer;
+package com.github.dragonhht.sync.read.writer;
 
 import java.util.Random;
 import java.util.concurrent.locks.ReadWriteLock;
