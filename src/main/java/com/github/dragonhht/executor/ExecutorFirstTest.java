@@ -1,7 +1,8 @@
 package com.github.dragonhht.executor;
 
+import java.util.Date;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * .
@@ -13,22 +14,11 @@ public class ExecutorFirstTest {
 
     public static void main(String[] args) {
         // 定义执行器，创建一个缓存线程池
-        ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newCachedThreadPool();
-        // 将任务交给执行器
-        for (int i = 0; i < 10; i++) {
-            executor.execute(() -> {
-                System.out.println(Thread.currentThread().getName() + ": 任务开始执行");
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                System.out.println(Thread.currentThread().getName() + ": 任务结束");
-            });
-        }
-
-        // 关闭执行器资源
-        executor.shutdown();
+        ExecutorService executor = Executors.newWorkStealingPool();
+        // 提交任务
+        executor.execute(() -> System.out.println("hello: " + new Date()));
+        // 周期性执行任务时不要关闭执行器，否则不会周期性执行
+        //executor.shutdown();
     }
 
 }
